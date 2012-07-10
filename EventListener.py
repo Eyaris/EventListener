@@ -53,7 +53,7 @@ if id == 0:
 					os.system("/opt/slapos/bin/slapgrid-supervisorctl /etc/opt/slapos/slapos.cfg stop all")
 					time.sleep(660)
 				else:
-					time.sleep(30*lasts)
+					time.sleep(300)
 		else:
 			print "deamon checking plug: "
 			print pid
