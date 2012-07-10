@@ -1,0 +1,2 @@
+#!/bin/sh
+/opt/slapos/bin/slapgrid-supervisorctl /etc/opt/slapos/slapos.cfg stop all

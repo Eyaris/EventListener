@@ -1,0 +1,3 @@
+#!/bin/sh
+echo `date +%H.%M` >> Unplugged/Plug.log
+echo `date` : Unplugged >> Plug.log
